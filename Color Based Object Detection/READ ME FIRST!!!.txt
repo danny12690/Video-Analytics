@@ -1,0 +1,16 @@
+1> The main source code is contained in "main.cpp"
+2> This program uses openCV library
+3> We capture a live webcam feed and frame by frame convert it to HSV , threshold it as per provided
+   HSV sliders and then track the colored object by changing its blue pixel value and creating a red
+   bounding box around it.
+4> On pressing the r key after bringing the reference object into the view, we sample its dimensions
+   by pressing the s key. 
+5> The reference object's dimensions are already known to us and we calculate the translation factor
+   in terms of pixel width on screen by sampling.
+6> Now if we press the d key the dimensions of the object under observation will be displayed on the original
+   image.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+NOTE : To run the program simply copy and paste the source code in main.cpp to a .cpp file in your project.
+       Make sure to update the environment and project libraries in your project to openCV 2.4.9. 
